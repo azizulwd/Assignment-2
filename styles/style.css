@@ -25,3 +25,36 @@ body{
     width: 1100px;
     margin: 0 auto;
 }
+.child{
+    width: 50%;
+}
+.link_btn {
+    background: #E02C6D;
+    padding: 10px 24px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+
+
+/* =====================
+Banner-Top-css
+===================== */
+.header_banner_top{
+    background: #2d25a0;
+    padding: 50px 0;
+    margin-bottom: 70px;
+}
+.banner_container .banner_details h1 {
+    color: #fff;
+    font-size: 60px;
+}
+.banner_container .banner_details a i{
+    margin-left: 10px;
+}
+.banner_container .banner_img img{
+    width: 556px;
+}
