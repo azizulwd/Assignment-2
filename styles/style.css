@@ -48,13 +48,16 @@ Banner-Top-css
     padding: 50px 0;
     margin-bottom: 70px;
 }
+.banner_container{
+    gap: 102px;
+}
 .banner_container .banner_details h1 {
     color: #fff;
     font-size: 60px;
     line-height: 80px;
 }
 .banner_container .banner_details a i{
-    margin-left: 10px;
+    margin-left: 8px;
 }
 .banner_container .banner_img img{
     width: 556px;
@@ -98,4 +101,38 @@ Player-data-css
     font-size: 16px;
     color: #6C6C6C;
     line-height: 26px;
+}
+
+
+/* =====================
+Match-Highlight-css
+===================== */
+.match_highlight {
+    margin-bottom: 158px;
+    gap: 69px;
+}
+.match_highlight .match_hightlight_info h1 {
+    font-size: 48px;
+    color: #0A0826;
+    margin-bottom: 8px;
+    line-height: 60px;
+}
+.match_highlight .match_hightlight_info p {
+    color: #6C6C6C;
+    font-size: 16px;
+    line-height: 28px;
+}
+.match_highlight .match_hightlight_info a i{
+    margin-left: 8px;
+}
+.match_highlight .match_highlight_img{
+    overflow: hidden;
+}
+.match_highlight .match_highlight_img img {
+    width: 467px;
+    height: 427px;
+    transition: 1s;
+}
+.match_highlight .match_highlight_img img:hover{
+    transform: scale(1.2) rotate(360deg);
 }
