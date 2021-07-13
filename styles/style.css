@@ -136,3 +136,39 @@ Match-Highlight-css
 .match_highlight .match_highlight_img img:hover{
     transform: scale(1.2) rotate(360deg);
 }
+
+
+
+/* =====================
+Footer-css
+===================== */
+.footer {
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer_logo img {
+    width: 483px;
+}
+.footer_social_link{
+    margin-bottom: 20px;
+}
+.footer_social_link a {
+    width: 41px;
+    display: inline-block;
+    font-size: 14px;
+    color: #969bab;
+    background: #e7e7e8;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.footer_social_link a:last-child{
+    margin-right: 0;
+}
+.copyright_text p {
+    font-size: 18px;
+}
