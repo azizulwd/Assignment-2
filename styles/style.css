@@ -71,8 +71,8 @@ Banner-Top-css
 /* =====================
 Player-data-css
 ===================== */
-.player_data{
-    width: 950px;
+.player_data {
+    width: 1100px;
     margin: 0 auto;
     margin-bottom: 165px;
 }
@@ -88,7 +88,7 @@ Player-data-css
     box-shadow: 0 0 10px lightgray;
 }
 .player .player_img img {
-    width: 300px;
+    width: 316px;
     height: 256px;
     margin-bottom: 15px;
 }
@@ -182,7 +182,39 @@ Media Query
 
 /* Tablet Device */
 @media only screen and (max-width: 992px){
-    
+    .container{
+        width: 100%;
+    }
+    .banner_container{
+        gap: 20px;
+        padding: 0 30px;
+    }
+    .banner_container .banner_details{
+        width: 50%;
+    }
+    .banner_container .banner_img img{
+        width: 100%;
+    }
+    .player_data{
+        width: 90%;
+    }
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .player .player_img img{
+        width: 100%;
+        height: 100%;
+    }
+    .match_highlight{
+        padding: 0 30px;
+        gap: 20px;
+    }
+    .match_highlight .match_hightlight_info{
+        width: 75%;
+    }
+    .match_highlight .match_highlight_img{
+        width: 100%;
+    }
 }
 
 
@@ -196,6 +228,7 @@ Media Query
     }
     .banner_container{
         flex-direction: column;
+        gap: 80px;
     }
     .banner_container .banner_details{
         width: 100%;
@@ -218,6 +251,7 @@ Media Query
     }
     .match_highlight{
         flex-direction: column;
+        gap: 50px;
         padding: 0 20px;
     }
     .match_highlight .match_hightlight_info{
