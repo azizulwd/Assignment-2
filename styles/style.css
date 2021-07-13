@@ -51,10 +51,51 @@ Banner-Top-css
 .banner_container .banner_details h1 {
     color: #fff;
     font-size: 60px;
+    line-height: 80px;
 }
 .banner_container .banner_details a i{
     margin-left: 10px;
 }
 .banner_container .banner_img img{
     width: 556px;
+    transition: 0.5s;
+}
+.banner_container .banner_img img:hover{
+    transform: scale(1.1);
+}
+
+
+/* =====================
+Player-data-css
+===================== */
+.player_data{
+    width: 950px;
+    margin: 0 auto;
+    margin-bottom: 165px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+}
+.player {
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0 0 10px lightgray;
+}
+.player .player_img img {
+    width: 300px;
+    height: 256px;
+    margin-bottom: 15px;
+}
+.player .player_info h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #18191F;
+}
+.player .player_info p {
+    font-size: 16px;
+    color: #6C6C6C;
+    line-height: 26px;
 }
